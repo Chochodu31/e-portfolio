@@ -1,0 +1,34 @@
+.element {
+    border-top: 3px #EB5353 dotted;
+    border-right: 3px #F9D923 double;
+    border-bottom: 3px #36AE7C dashed;
+    border-left: 3px #187498 solid;
+    padding: 150px;
+}
+
+body {
+    background-color: rgb(184, 184, 184);
+}
+
+
+nav {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    background-color: black;
+    padding: 20px;
+    margin-left: -8px;
+    margin-right: -8px;
+    margin-top: -8px;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+a:hover {
+    color: grey;
+    text-decoration: underline;
+}
