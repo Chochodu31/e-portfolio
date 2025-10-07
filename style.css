@@ -32,3 +32,23 @@ a:hover {
     color: grey;
     text-decoration: underline;
 }
+
+a:active {
+    color: rgb(86, 86, 86);
+}
+
+.boite {
+
+    width: 65%;
+    padding: 20px;
+    margin: auto;
+    background-color: powderblue;
+    box-shadow: inset;
+    margin-top: 100px;
+
+}
+
+.image_intro{
+    background-image: url(informatique.jpg);
+    background-size: cover;
+}
