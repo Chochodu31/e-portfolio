@@ -1,11 +1,3 @@
-.element {
-    border-top: 3px #EB5353 dotted;
-    border-right: 3px #F9D923 double;
-    border-bottom: 3px #36AE7C dashed;
-    border-left: 3px #187498 solid;
-    padding: 150px;
-}
-
 body {
     background-color: rgb(184, 184, 184);
 }
@@ -47,10 +39,11 @@ a:active {
     margin: auto;
     background-color: rgb(149, 191, 191) ;
     margin-top: 100px;
+    margin-bottom: 100px;
     box-shadow: 7px 7px 3px 3px grey;
     height: 200px;
     text-align: center;
-    border-radius: 30px ;
+    border-radius: 10px ;
 }
 
 .image_intro{
@@ -73,4 +66,16 @@ a:active {
     background-size: 150%;
     background-position-x: -30px;
     background-position-y: -30px;
+}
+
+footer{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background-color: black;
+    color: white;
+    margin-bottom: -10px;
+    margin-left: -8px;
+    margin-right: -8px;
+    padding: 10px;
 }
