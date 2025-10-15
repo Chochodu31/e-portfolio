@@ -9,23 +9,24 @@ nav {
     flex-wrap: wrap;
     justify-content: space-around;
     background-color: black;
+    color: white;
     padding: 20px;
     margin-left: -8px;
     margin-right: -8px;
     margin-top: -8px;
 }
 
-a {
+.Menu {
     color: white;
     text-decoration: none;
 }
 
-a:hover {
+.Menu:hover {
     color: grey;
     text-decoration: underline;
 }
 
-a:active {
+.Menu:active {
     color: rgb(86, 86, 86);
 }
 
