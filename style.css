@@ -38,11 +38,11 @@ nav {
     width: 70%;
     padding: 20px;
     margin: auto;
-    background-color: rgb(149, 191, 191) ;
+    background-color: rgb(48, 107, 52) ;
     margin-top: 100px;
     margin-bottom: 100px;
     box-shadow: 7px 7px 3px 3px grey;
-    height: 200px;
+    height: fit-content;
     text-align: center;
     border-radius: 10px ;
 }
@@ -88,4 +88,17 @@ footer{
     overflow: hidden;
     background-image: url(linkedin.png);
     background-size: 100%;
+}
+
+.paragraphe_intro{
+    width: 80%;
+    /* border-style: dashed; */
+    text-align: left;
+    font-size:x-large;
+    text-align: justify;
+}
+
+.CV{
+    color: black;
+    text-decoration: none;
 }
