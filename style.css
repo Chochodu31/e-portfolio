@@ -30,7 +30,7 @@ nav {
     color: rgb(86, 86, 86);
 }
 
-.boite {
+.boite_intro {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -106,4 +106,21 @@ footer{
 .titre{
     text-align: center;
     font-size: 10cap;
+}
+
+.boite_sujets{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-between ;
+    width: 70%;
+    padding: 20px;
+    margin: auto;
+    background-color: rgb(79, 52, 36) ;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    box-shadow: 7px 7px 3px 3px grey;
+    height: fit-content;
+    text-align: center;
+    border-radius: 10px ;
 }
