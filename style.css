@@ -102,3 +102,8 @@ footer{
     color: black;
     text-decoration: none;
 }
+
+.titre{
+    text-align: center;
+    font-size: 10cap;
+}
