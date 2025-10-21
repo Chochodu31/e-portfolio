@@ -38,7 +38,7 @@ nav {
     width: 70%;
     padding: 20px;
     margin: auto;
-    background-color: rgb(48, 107, 52) ;
+    background-color: burlywood ;
     margin-top: 100px;
     margin-bottom: 100px;
     box-shadow: 7px 7px 3px 3px grey;
@@ -94,7 +94,7 @@ footer{
     width: 80%;
     /* border-style: dashed; */
     text-align: left;
-    font-size:x-large;
+    font-size: x-large;
     text-align: justify;
 }
 
@@ -116,11 +116,21 @@ footer{
     width: 70%;
     padding: 20px;
     margin: auto;
-    background-color: rgb(79, 52, 36) ;
+    background-color: burlywood;
     margin-top: 100px;
     margin-bottom: 100px;
     box-shadow: 7px 7px 3px 3px grey;
     height: fit-content;
     text-align: center;
     border-radius: 10px ;
+    color: black;
+    text-decoration: none;
+}*
+
+.boite_sujets:hover{
+    box-shadow: 4px 4px 2px 2px grey;
+}
+
+.boite_sujets:active{
+    box-shadow: 4px 4px 2px 2px rgb(108, 108, 108);
 }
