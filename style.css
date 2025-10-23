@@ -109,7 +109,8 @@ footer{
 
 .titre{
     text-align: center;
-    font-size: 10cap;
+    font-size: 5cap;
+    text-decoration: underline;
 }
 
 .boite_sujets{
@@ -119,6 +120,7 @@ footer{
     /* flex-wrap: wrap; */
     /* justify-content: space-between ; */
     display: grid;
+    /* align-items: center; */
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 4fr 4fr;
     grid-gap: 10px;
@@ -155,6 +157,7 @@ footer{
     grid-row: 2/3;
     text-align: justify;
     font-size: large;
+    /* transform: translateY(30%); */
 }
 
 .Bristol_Bridge{
