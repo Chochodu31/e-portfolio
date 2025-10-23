@@ -31,11 +31,15 @@ nav {
 }
 
 .boite_intro {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-between ;
+    /* display: flex; */
+    /* flex-direction: row; */
+    /* flex-wrap: wrap; */
+    /* justify-content: space-between ; */
     width: 70%;
+    min-width: min-content;
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: 1fr 5fr;
     padding: 20px;
     margin: auto;
     background-color: burlywood ;
@@ -91,8 +95,8 @@ footer{
 }
 
 .paragraphe_intro{
-    width: 80%;
     /* border-style: dashed; */
+    min-width: 200px;
     text-align: left;
     font-size: x-large;
     text-align: justify;
@@ -109,10 +113,15 @@ footer{
 }
 
 .boite_sujets{
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    justify-content: space-between ;
+    /* display: flex; */
+    /* display: block; */
+    /* flex-direction: column; */
+    /* flex-wrap: wrap; */
+    /* justify-content: space-between ; */
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 4fr 4fr;
+    grid-gap: 10px;
     width: 70%;
     padding: 20px;
     margin: auto;
@@ -133,4 +142,50 @@ footer{
 
 .boite_sujets:active{
     box-shadow: 4px 4px 2px 2px rgb(108, 108, 108);
+}
+
+.Titre_England{
+    grid-column: 1/3;
+    grid-row: 1/2;
+}
+
+.Texte_England{
+    /* border-style: dashed; */
+    grid-column: 1/2;
+    grid-row: 2/3;
+    text-align: justify;
+    font-size: large;
+}
+
+.Bristol_Bridge{
+    border-radius: 8px;
+    /* border-style: dashed; */
+    grid-column: 1/2;
+    grid-row: 3/4;
+    background-image: url(suspension\ bridge.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.Bristol_docks{
+    border-radius: 8px;
+    /* border-style: dashed; */
+    grid-column: 2/3;
+    grid-row: 2/3;
+    background-image: url(Bristol_docks.avif);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.Clifton{
+    border-radius: 8px;
+    /* border-style: dashed; */
+    grid-column: 2/3;
+    grid-row: 3/4;
+    background-image: url(Clifton.avif);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
 }
