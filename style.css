@@ -2,7 +2,6 @@ body {
     background-color: rgb(184, 184, 184);
 }
 
-
 nav {
     display: flex;
     flex-direction: row;
@@ -30,56 +29,10 @@ nav {
     color: rgb(86, 86, 86);
 }
 
-.boite_intro {
-    /* display: flex; */
-    /* flex-direction: row; */
-    /* flex-wrap: wrap; */
-    /* justify-content: space-between ; */
-    width: 70%;
-    min-width: min-content;
-    display: grid;
-    grid-gap: 20px;
-    grid-template-columns: 1fr 5fr;
-    padding: 20px;
-    margin: auto;
-    background-color: burlywood ;
-    margin-top: 100px;
-    margin-bottom: 100px;
-    box-shadow: 7px 7px 3px 3px grey;
-    height: fit-content;
-    text-align: center;
-    border-radius: 10px ;
-}
-
-.image_intro{
-    padding: 150px;
-    margin-top: -8px;
-    margin-left: -8px;
-    margin-right: -8px;
-    background-image: url(pexels-craigmdennis-57007.jpg);
-    background-size: cover;
-    background-position: center;
-}
-
-.circular_image {
-    width: 200px;
-    height: 200px;
-    border-radius: 50%;
-    overflow: hidden;
-    float: left;
-    background-image: url(photo_perso.jpg);
-    background-size: 150%;
-    background-position-x: -30px;
-    background-position-y: -30px;
-}
-
 footer{
-    /* display: flex;
-    flex-direction: row;
-    flex-wrap: wrap; */
     display: grid;
     grid-template-columns: 2fr 15fr;
-    grid-gap: 8px;
+    grid-gap: 50px;
     background-color: black;
     color: gray;
     height: fit-content;
@@ -87,6 +40,7 @@ footer{
     margin-left: -8px;
     margin-right: -8px;
     padding: 10px;
+    padding-top: 30px;
     justify-content: space-around;
 }
 
@@ -95,220 +49,16 @@ footer{
     height: 50px;
 }
 
-.paragraphe_intro{
-    /* border-style: dashed; */
-    min-width: 200px;
-    text-align: left;
-    font-size: x-large;
-    text-align: justify;
-}
-
-.titre{
+.titre_page{
     text-align: center;
     font-size: 5cap;
     text-decoration: underline;
 }
 
-.boite_sujets{
-    /* display: flex; */
-    /* display: block; */
-    /* flex-direction: column; */
-    /* flex-wrap: wrap; */
-    /* justify-content: space-between ; */
-    display: grid;
-    /* align-items: center; */
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr 4fr 4fr;
-    grid-gap: 10px;
-    width: 70%;
-    padding: 20px;
-    margin: auto;
-    background-color: burlywood;
-    margin-top: 100px;
-    margin-bottom: 100px;
-    box-shadow: 7px 7px 3px 3px grey;
-    height: fit-content;
-    text-align: center;
-    border-radius: 10px ;
-    color: black;
-    text-decoration: none;
-}*
-
-.boite_sujets:hover{
-    box-shadow: 4px 4px 2px 2px grey;
-}
-
-.boite_sujets:active{
-    box-shadow: 4px 4px 2px 2px rgb(108, 108, 108);
-    
-}
-
-.Titre_England{
-    grid-column: 1/3;
-    grid-row: 1/2;
-}
-
-.Texte_England{
-    /* border-style: dashed; */
-    grid-column: 1/2;
-    grid-row: 2/3;
-    text-align: justify;
-    font-size: large;
-    /* transform: translateY(30%); */
-}
-
-.Bristol_Bridge{
-    border-radius: 8px;
-    /* border-style: dashed; */
-    grid-column: 1/2;
-    grid-row: 3/4;
-    background-image: url(suspension\ bridge.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-}
-
-.Bristol_docks{
-    border-radius: 8px;
-    /* border-style: dashed; */
-    grid-column: 2/3;
-    grid-row: 2/3;
-    background-image: url(Bristol_docks.avif);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-}
-
-.Clifton{
-    border-radius: 8px;
-    /* border-style: dashed; */
-    grid-column: 2/3;
-    grid-row: 3/4;
-    background-image: url(Clifton.avif);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-}
-
-.bottom{
+.contact{
     /* border-style: dashed; */
     grid-column: 1/2;
     display: flex;
     flex-direction: column;
     font-size: x-large;
-}
-
-.reference{
-    grid-column: 2/3;
-    /* border-style: dashed; */
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-template-rows: 1fr 4fr;
-    grid-column-gap: 15px;
-}
-
-.nom_ref{
-    /* border-style: dashed; */
-    grid-column: 1/5;
-    grid-row: 1/2;
-}
-
-.ref_england{
-    /* border-style: dashed; */
-    grid-column: 1/2;
-    grid-row: 2/3;
-}
-
-.ref_italy{
-    /* border-style: dashed; */
-    grid-column: 2/3;
-    grid-row: 2/3;
-}
-
-.lien{
-    color: gray;
-    text-decoration: none;
-}
-
-.lien:hover{
-    color: rgb(98, 96, 96);
-    text-decoration: underline;
-}
-
-.lien:active{
-    color: rgb(71, 71, 71);
-    text-decoration: underline;
-}
-
-.Chiesa_Bassano{
-    border-radius: 8px;
-    /* border-style: dashed; */
-    grid-column: 2/3;
-    grid-row: 2/3;
-    background-image: url(Chiesa-San-Giovanni-Battista-Bassano-del-Grappa-Venetien-Italien-Foto.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-}
-
-.Palais_Venise{
-    border-radius: 8px;
-    /* border-style: dashed; */
-    grid-column: 2/3;
-    grid-row: 3/4;
-    background-image: url(Palais_des_Doges.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-}
-
-.paragraphe_intro_Career_Development{
-    font-size: x-large;
-}
-
-.Docs{
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 1fr;
-    grid-gap: 10px;
-    margin-bottom: 20px;
-}
-
-.CV{
-    /* border-style: dashed; */
-    grid-column: 1/2;
-    background-color: burlywood;
-    border-radius: 10px;
-    padding: 10px;
-}
-
-.School_Certificates{
-    /* border-style: dashed; */
-    grid-column: 2/3;
-    background-color: burlywood;
-    border-radius: 10px;
-    padding: 10px;
-}
-
-.Medical_Certificates{
-    /* border-style: dashed; */
-    grid-column: 3/4;
-    background-color: burlywood;
-    border-radius: 10px;
-    padding: 10px;
-}
-
-.CV_lien{
-    color: black;
-    text-decoration: none;
-}
-
-.CV_lien:hover{
-    color: rgb(66, 65, 65);
-    text-decoration: underline;
-}
-
-.CV_lien:active{
-    color: black;
-    text-decoration: underline;
 }
