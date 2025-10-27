@@ -1,0 +1,10 @@
+.boite_sujets{
+    width: 70%;
+    margin: auto;
+    background-color: burlywood;
+    height: fit-content;
+    text-align: center;
+    color: black;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
