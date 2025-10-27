@@ -62,3 +62,18 @@ footer{
     flex-direction: column;
     font-size: x-large;
 }
+
+.lien{
+    color: gray;
+    text-decoration: none;
+}
+
+.lien:hover{
+    color: rgb(98, 96, 96);
+    text-decoration: underline;
+}
+
+.lien:active{
+    color: rgb(71, 71, 71);
+    text-decoration: underline;
+}

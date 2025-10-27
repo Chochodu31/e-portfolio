@@ -44,3 +44,7 @@
     font-size: x-large;
     text-align: justify;
 }
+
+.reference{
+    grid-column: 2/3;
+}

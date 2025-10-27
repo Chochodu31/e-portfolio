@@ -126,18 +126,3 @@
     grid-column: 2/3;
     grid-row: 2/3;
 }
-
-.lien{
-    color: gray;
-    text-decoration: none;
-}
-
-.lien:hover{
-    color: rgb(98, 96, 96);
-    text-decoration: underline;
-}
-
-.lien:active{
-    color: rgb(71, 71, 71);
-    text-decoration: underline;
-}
