@@ -1,0 +1,47 @@
+.boite{
+    width: 70%;
+    height: 50%;
+    margin: auto;
+    /* background-color: white; */
+}
+
+  .carousel {
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+    /* border-radius: 5px; */
+    margin: auto;
+  }
+
+  .carousel-slide {
+    display: flex;
+    align-items: center;
+    height: 500px;
+    width: 400%; /* Adjust based on the number of images */
+    animation-name: carousel-animation;
+    animation-duration: 15s;
+    animation-iteration-count: infinite;
+  }
+
+  .carousel-slide img {
+    width: calc(100% / 4);
+    height: 100%;
+    object-fit: cover;
+  }
+
+  @keyframes carousel-animation {
+    /* Adjust based on the number of images */
+    /* 3 image animation */
+    0% {
+      transform: translateX(0);
+    }
+    33.33% {
+      transform: translateX(-25%);
+    }
+    66.66% {
+      transform: translateX(-50%);
+    }
+    100%{
+        transform: translateX(-75%);
+    }
+  }
