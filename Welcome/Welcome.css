@@ -48,3 +48,10 @@
 .reference{
     grid-column: 2/3;
 }
+
+.video{
+    display: block;
+    margin: auto;
+    padding: 10px;
+    height: 100%;
+}
