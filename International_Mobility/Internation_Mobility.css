@@ -134,5 +134,9 @@
 }
 
 .image_loc{
-    width: 2.5%;
+    width: 3%;
+    position: absolute; 
+    top: 39%; 
+    left: 47%; 
+    transform: translate(-50%, -50%);
 }
