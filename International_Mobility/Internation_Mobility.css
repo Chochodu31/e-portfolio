@@ -133,10 +133,50 @@
     width: 100%;
 }
 
-.image_loc{
-    width: 3%;
+.image_loc_England{
+    width: 1.8%;
     position: absolute; 
     top: 39%; 
     left: 47%; 
     transform: translate(-50%, -50%);
+}
+
+.image_loc_England:hover{
+    width: 2.5%;
+}
+
+.image_loc_Italy{
+    width: 1.8%;
+    position: absolute; 
+    top: 43%; 
+    left: 50%; 
+    transform: translate(-50%, -50%);
+}
+
+.image_loc_Italy:hover{
+    width: 2.5%;
+}
+
+.image_loc_Canada{
+    width: 1.8%;
+    position: absolute; 
+    top: 33%; 
+    left: 16%; 
+    transform: translate(-50%, -50%);
+}
+
+.image_loc_Canada:hover{
+    width: 2.5%;
+}
+
+.image_loc_Germany{
+    width: 1.8%;
+    position: absolute; 
+    top: 39%;
+    left: 50%; 
+    transform: translate(-50%, -50%);
+}
+
+.image_loc_Germany:hover{
+    width: 2.5%;
 }
