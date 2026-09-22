@@ -6,7 +6,7 @@
     grid-template-columns: 1fr 5fr;
     padding: 20px;
     margin: auto;
-    background-color: burlywood ;
+    background-color: rgb(70, 70, 70) ;
     margin-top: 100px;
     margin-bottom: 100px;
     box-shadow: 7px 7px 3px 3px grey;
@@ -40,8 +40,9 @@
 .paragraphe_intro{
     /* border-style: dashed; */
     min-width: 200px;
+    color : rgb(220, 220, 220);
     text-align: left;
-    font-size: x-large;
+    font-size: large; 
     text-align: justify;
 }
 
