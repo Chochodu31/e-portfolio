@@ -1,79 +1,187 @@
 body {
-    background-color: rgb(184, 184, 184);
+	background-color: rgb(184, 184, 184);
 }
 
 nav {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    background-color: black;
-    color: white;
-    padding: 20px;
-    margin-left: -8px;
-    margin-right: -8px;
-    margin-top: -8px;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	background-color: black;
+	color: white;
+	padding: 20px;
+	margin-left: -8px;
+	padding-left: 30px;
+	margin-right: -8px;
+	margin-top: -8px;
+	position: relative;
 }
 
 .Menu {
-    color: white;
-    text-decoration: none;
+	color: white;
+	text-decoration: none;
 }
 
 .Menu:hover {
-    color: grey;
-    text-decoration: underline;
+	color: grey;
+	text-decoration: underline;
 }
 
 .Menu:active {
-    color: rgb(86, 86, 86);
+	color: rgb(86, 86, 86);
 }
 
 footer{
-    display: grid;
-    grid-template-columns: 2fr 15fr;
-    grid-gap: 50px;
-    background-color: black;
-    color: gray;
-    height: fit-content;
-    margin-bottom: -10px;
-    margin-left: -8px;
-    margin-right: -8px;
-    padding: 10px;
-    padding-top: 30px;
-    justify-content: space-around;
+	display: grid;
+	grid-template-columns: 2fr 15fr;
+	grid-gap: 50px;
+	background-color: black;
+	color: gray;
+	height: fit-content;
+	margin-bottom: -10px;
+	margin-left: -8px;
+	margin-right: -8px;
+	padding: 10px;
+	padding-top: 30px;
+	justify-content: space-around;
 }
 
 .linkedin{
-    width: 50px;
-    height: 50px;
+	width: 50px;
+	height: 50px;
 }
 
 .titre_page{
-    text-align: center;
-    font-size: 5cap;
-    text-decoration: underline;
+	text-align: center;
+	font-size: 5cap;
+	text-decoration: underline;
 }
 
 .contact{
-    /* border-style: dashed; */
-    grid-column: 1/2;
-    display: flex;
-    flex-direction: column;
-    font-size: x-large;
+	/* border-style: dashed; */
+	grid-column: 1/2;
+	display: flex;
+	flex-direction: column;
+	font-size: x-large;
 }
 
 .lien{
-    color: gray;
-    text-decoration: none;
+	color: gray;
+	text-decoration: none;
 }
 
 .lien:hover{
-    color: rgb(98, 96, 96);
-    text-decoration: underline;
+	color: rgb(98, 96, 96);
+	text-decoration: underline;
 }
 
 .lien:active{
-    color: rgb(71, 71, 71);
-    text-decoration: underline;
+	color: rgb(71, 71, 71);
+	text-decoration: underline;
+}
+
+*,*::before,*::after{
+	box-sizing: border-box
+}
+
+
+input[type="checkbox"] {
+	position: absolute;
+	left: -100vw;
+}
+
+.BurgerMenu+label{
+	cursor: pointer;
+	width: 30px;
+	height : 30px;
+	left: 0px;
+	display: flex;
+	position: absolute;
+	align-items: center;
+	justify-content: center;
+	border-radius: 100%;
+	z-index: 10;
+}
+
+.BurgerMenu:checked+label {
+	position: fixed;
+	top: 10px;
+	left: 10px;
+}
+
+.BurgerMenu+label span{
+	display: inline-block;
+	background: white;
+	width: 20px;
+	height: 2px;
+	position: relative;
+	top : -6px
+}
+
+.BurgerMenu+label span::before,
+.BurgerMenu+label span::after {
+	position : absolute;
+	background: white;
+	width : inherit;
+	height: inherit;
+	content: "";
+	transition : 0.5s;
+}
+
+.BurgerMenu+label span::before {
+	top: -5px;
+}
+
+.BurgerMenu+label span::after {
+	top : 5px;
+}
+
+.BurgerMenu:checked+label span {
+	background: transparent;
+}
+
+.BurgerMenu:checked+label span::after,
+.BurgerMenu:checked+label span::before {
+	top: 0;
+}
+
+.BurgerMenu:checked+label span:before {
+	transform: rotate(45deg);
+}
+
+.BurgerMenu:checked+label span:after {
+	transform: rotate(-45deg);
+}
+
+.BurgerPanel {
+	position : fixed;
+	left : 0;
+	top: 0;
+	height: 100%;
+	width: min(50%, 300px);
+	background: black;
+	transform: translateX(-100%);
+	will-change: transform;
+}
+
+.BurgerPanel ul{
+	list-style-type: none;
+	margin-top: 6rem;
+}
+
+.BurgerPanel ul li{
+	margin : 1rem;
+}
+
+.BurgerPanel a {
+	color: white;
+	/* transition: visibility 500ms, opacity 500ms 300ms; */
+}
+
+.BurgerMenu:checked+label~ .BurgerPanel{
+	transform: unset;
+}
+
+.BurgerPanel {
+	transition: transform 0.5s;
 }

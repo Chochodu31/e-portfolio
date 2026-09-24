@@ -1,5 +1,5 @@
 .boite_intro {
-    width: 70%;
+    width: 80% ;
     min-width: min-content;
     display: grid;
     grid-gap: 20px;
@@ -55,3 +55,75 @@
     margin: auto;
     padding: 10px;
 }
+
+
+
+/*************MENU SLIDE*******************/
+/*
+nav ul{
+list-style-type: none;
+padding-left:0;	
+margin-top: 6rem;
+	
+}
+	
+nav ul li{margin:1rem}	
+
+nav a {
+font-size:1.25rem;
+color:white;
+opacity: 0;
+visibility: hidden;
+
+}
+	
+.hamburger:checked+label~ nav{ 
+	
+transform: unset; /*on revient à l'état initial*/
+		
+/* }
+
+.hamburger:checked+label~ nav a {
+ 
+visibility: visible;
+opacity: 1;
+} */
+
+/*************MENU SLIDE*******************/
+
+
+/*************Accessibilité*******************/
+/* .hamburger:focus-visible~label,
+nav a:focus-visible,
+nav a:focus {
+
+  outline: 2px solid #6753ea;
+  outline-offset: 4px;
+}
+	
+.hamburger:not(:focus-visible)~label,nav a:not(:focus):focus-visible{
+	
+    outline: none;
+  }	
+	
+.hamburger:not(:focus-visible):focus~label{
+	
+	box-shadow: 0 0 0 4px hsl(248, 78%, 58%)
+	
+	}
+	
+@media (prefers-reduced-motion: no-preference) {
+.hamburger+label span {transition: background 10ms 300ms;}
+.hamburger+label span::before, 
+.hamburger+label span::after{transition: top 300ms 350ms, transform 300ms 50ms;}
+.hamburger:checked+label span::after,
+.hamburger:checked+label span::before {transition: top 300ms 50ms, transform 300ms 350ms;}	
+	
+.hamburger:focus-visible~label,nav a:focus-visible,
+nav a:focus  {transition: outline-offset .25s ease;}
+	
+nav{transition: transform 0.5s;}
+nav a{transition: visibility 500ms,opacity 500ms 300ms;}
+	
+	
+	} */
