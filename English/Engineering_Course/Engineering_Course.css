@@ -1,0 +1,39 @@
+.matieres{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 10px;
+}
+
+.texte_1A{
+    /* border-style: dashed; */
+    padding: 30px;
+    grid-column: 1/2;
+    /* text-align: center; */
+    width: 70%;
+    min-width: min-content;
+    margin: auto;
+    height: fit-content;
+    border-radius: 10px;
+    background-color: rgb(70, 70, 70);
+    color : rgb(220, 220, 220);
+    text-align: left;
+    font-size: large; 
+    text-align: justify;
+}
+
+.texte_2A{
+    /* border-style: dashed; */
+    padding: 30px;
+    grid-column: 2/3;
+    /* text-align: center; */
+    width: 70%;
+    min-width: min-content;
+    margin: auto;
+    height: fit-content;
+    border-radius: 10px;
+    background-color: rgb(70, 70, 70);
+    color : rgb(220, 220, 220);
+    text-align: left;
+    font-size: large; 
+    text-align: justify;
+}

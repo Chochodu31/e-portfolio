@@ -1,0 +1,47 @@
+Welcome : 
+	- ajouter au paragraphe présentant les elevator pitch
+	- nouveau elevator pitch
+
+Engineering Course : 
+	- Ajouter matières et exemples
+
+International Mobility : 
+	- Carte : 
+		- ajotuer pays à visiter
+		- changer l'icon de menu en bas
+		- ajouter les autres pays visité
+	- liste : 
+		- compléter les différents pays avec un mini texte et photo
+	- Les pays :
+		A COMPLETER
+
+PPP : 
+	A CREER
+
+Civic Engagement : 
+	- Changer couleurs
+	- ajouter description et ce que ça m'a apporter
+	- ajouter les projets du futur et pourquoi je ne les ai pas encore executer
+	- changer la banière
+	- changer le pied de page
+	- LinkedIn icone
+
+Sports and Activities:
+	- banières
+	- pied de page
+	- LinkedIn
+	- changer couleurs box
+	- ajouter des pages pour les boxs ? (exemples et images)
+	- parler de tout les projets que j'ai et qui sont en cours
+
+Career Developpement : 
+	- banière
+	- pied de page
+	- couleur des box
+	- remettre les docuements à jours
+	- linkedIn
+	- lien vers le PPP avec une mini présentation de mes projets
+	- Mettre en avant les CV et mettre en bas les certificats et médical ? 
+
+Autre : 
+	- Refaire le LinkedIn (compte)

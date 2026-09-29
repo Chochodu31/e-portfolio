@@ -33,7 +33,7 @@ nav {
 
 footer{
 	display: grid;
-	grid-template-columns: 2fr 15fr;
+	grid-template-columns: 5fr 15fr;
 	grid-gap: 50px;
 	background-color: black;
 	color: gray;
@@ -94,13 +94,13 @@ input[type="checkbox"] {
 	cursor: pointer;
 	width: 30px;
 	height : 30px;
-	left: 0px;
+	left: 10px;
 	display: flex;
 	position: absolute;
 	align-items: center;
 	justify-content: center;
 	border-radius: 100%;
-	z-index: 10;
+	z-index: 11;
 }
 
 .BurgerMenu:checked+label {
@@ -162,6 +162,7 @@ input[type="checkbox"] {
 	background: black;
 	transform: translateX(-100%);
 	will-change: transform;
+	z-index: 10;
 }
 
 .BurgerPanel ul{
@@ -184,4 +185,8 @@ input[type="checkbox"] {
 
 .BurgerPanel {
 	transition: transform 0.5s;
+}
+
+.mail{
+    font-size: small;
 }
